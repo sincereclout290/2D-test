@@ -37,4 +37,6 @@ public class RigidbodyMovement : MonoBehaviour
         // Assign velocity directly to the Rigidbody
         rb2d.velocity = moveDirection * moveSpeed;
     }
+    
 }
+
