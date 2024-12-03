@@ -2,7 +2,12 @@ fileFormatVersion: 2
 guid: 54601d80652cc9448bc24fc6396496fc
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: orc1_front_attack_Clip
+    second: {fileID: 7400000, guid: ce31f23a57e595f44a2eee4eb1f63171, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -95,7 +100,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638688394822037158
+  platformSettingsDirtyTick: 638688397298065707
   textureAssetName: 
   singleSpriteImportData:
   - name: 
