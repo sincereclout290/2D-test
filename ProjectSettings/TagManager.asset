@@ -6,6 +6,7 @@ TagManager:
   tags:
   - bad wall
   - ground
+  - Enemy
   layers:
   - Default
   - TransparentFX

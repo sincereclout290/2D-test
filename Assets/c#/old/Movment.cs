@@ -22,7 +22,7 @@ public class RigidbodyMovement : MonoBehaviour
     {
          if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))
         {
-            moveSpeed = 5f;
+            moveSpeed = 4f;
         }
         if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp(KeyCode.RightShift))
         {
