@@ -6,6 +6,7 @@ public class BasicEnermy : MonoBehaviour
 { 
     NavMeshAgent agent; 
     GameObject player; 
+    Animator animator;
     
     float attackDistance = 15f;
 
@@ -17,6 +18,8 @@ public class BasicEnermy : MonoBehaviour
         agent.updateUpAxis = false; 
         
         player = GameObject.FindWithTag("Player"); 
+    
+        animator = GetComponent<Animator>();
     } 
 
     // Update is called once per frame 
@@ -27,5 +30,8 @@ public class BasicEnermy : MonoBehaviour
         {
             agent.SetDestination(player.transform.position); 
         }
+
+        animator.SetFloat("input x", agent.velocity.x);
+        animator.SetFloat("input y", agent.velocity.y);
     } 
 }
