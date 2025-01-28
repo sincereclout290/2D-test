@@ -18,6 +18,8 @@ public class PlayerShooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (UiManager.isPaused)
+        return;
 
          RotateBulletSpawnPointTowardsMouse();
         // Check for the "Firel" input (left mouse button or spacebar by default)
