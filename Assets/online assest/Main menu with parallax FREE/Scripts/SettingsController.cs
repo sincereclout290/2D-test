@@ -40,6 +40,7 @@ public class SettingsController : MonoBehaviour {
        gameSettings.fullscreen = Screen.fullScreen = fullscreenToggle.isOn;
     }
 
+    [System.Obsolete]
     public void ResolutionChange()
     {
         Screen.SetResolution(resolutions[resolutionDrop.value].width, resolutions[resolutionDrop.value].height, Screen.fullScreen, resolutions[resolutionDrop.value].refreshRate);
