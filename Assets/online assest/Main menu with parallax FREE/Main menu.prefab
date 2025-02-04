@@ -5332,14 +5332,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useKeys: 1
-  useParallax: 0
+  useParallax: 1
   animSpeed: 1
   options:
   - New Game
+  - Select Scene
   - 'Options '
   - Exit
-  backgrounds:
-  - {fileID: 0}
+  backgrounds: []
   backgroundsParallax: []
   mainBackgroundParallax: {fileID: 0}
   mainBackground: {fileID: 0}
