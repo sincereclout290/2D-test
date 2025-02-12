@@ -8,7 +8,7 @@ public class BasicEnermy : MonoBehaviour
     GameObject player; 
     Animator animator;
     
-    float attackDistance = 15f;
+    public float attackDistance = 15f;
 
     // Start is called before the first frame update 
     void Start() 
