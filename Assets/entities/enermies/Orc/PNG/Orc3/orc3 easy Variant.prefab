@@ -26,7 +26,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1795983993852649199, guid: e6bf0b7adef999947b071c1a8216aa1e, type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 1795983993852649199, guid: e6bf0b7adef999947b071c1a8216aa1e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -72,9 +72,13 @@ PrefabInstance:
       propertyPath: attackDistance
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 5420245163643483962, guid: e6bf0b7adef999947b071c1a8216aa1e, type: 3}
+      propertyPath: levelName
+      value: Game over
+      objectReference: {fileID: 0}
     - target: {fileID: 7232954944298785944, guid: e6bf0b7adef999947b071c1a8216aa1e, type: 3}
       propertyPath: m_Name
-      value: orc3 Variant
+      value: orc3 easy Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7232954944298785944, guid: e6bf0b7adef999947b071c1a8216aa1e, type: 3}
       propertyPath: m_TagString

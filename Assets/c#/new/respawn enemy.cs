@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class respawnenemy : MonoBehaviour
-{
-    public GameObject respawnpoint; 
+{    
     public GameObject Player;
+    public string levelName;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +23,7 @@ public class respawnenemy : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player"))
         {
-            other.transform.position = respawnpoint.transform.position;
+            SceneManager.LoadScene(levelName);
         }
     }
 

@@ -9,10 +9,12 @@ public class PlayerShooting : MonoBehaviour
     public Transform firePointRotation;
     public Transform bulletSpawnPoint;
     public float bulletSpeed = 20f; // Speed of the bullet
+    AudioSource audioSource; //the source attached to this gameobject
+    public AudioClip attackSound; //The sound effect that will play whenever the arrow is shot
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
     
     // Update is called once per frame
@@ -52,5 +54,8 @@ public class PlayerShooting : MonoBehaviour
         // Apply velocity to the bullet in the direction the fire point is facing
         rb.velocity = firePointRotation.up * bulletSpeed;
         Destroy(bullet, 5f);
+        ///Sound effect when fired
+        audioSource.PlayOneShot(attackSound);
+        
     }
 }

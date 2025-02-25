@@ -37,7 +37,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3303624940655221870
 SpriteRenderer:
@@ -159,8 +159,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beff5a7a06995d941b4dd4810ba955f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respawnpoint: {fileID: 0}
   Player: {fileID: 0}
+  levelName: Game over
 --- !u!61 &6180344040877018953
 BoxCollider2D:
   m_ObjectHideFlags: 0

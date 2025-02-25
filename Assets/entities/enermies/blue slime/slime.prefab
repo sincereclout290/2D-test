@@ -37,7 +37,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5949800550550716743
 SpriteRenderer:
@@ -208,6 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c903ae36ac11fbc4dbdc8474a9edc40e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackDistance: 6
 --- !u!114 &3475438804447110685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,8 +221,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beff5a7a06995d941b4dd4810ba955f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respawnpoint: {fileID: 0}
   Player: {fileID: 0}
+  levelName: Game over
 --- !u!114 &727397863072452293
 MonoBehaviour:
   m_ObjectHideFlags: 0

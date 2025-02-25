@@ -28,9 +28,13 @@ PrefabInstance:
       propertyPath: m_Speed
       value: 2.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6902977762199776656, guid: d2e714b9b28f94c468e7b13ae8ddb054, type: 3}
+      propertyPath: levelName
+      value: Game over
+      objectReference: {fileID: 0}
     - target: {fileID: 7751229180022200883, guid: d2e714b9b28f94c468e7b13ae8ddb054, type: 3}
       propertyPath: m_Name
-      value: orc2 Variant
+      value: orc2 easy Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7751229180022200883, guid: d2e714b9b28f94c468e7b13ae8ddb054, type: 3}
       propertyPath: m_TagString
@@ -38,7 +42,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8571917584537071391, guid: d2e714b9b28f94c468e7b13ae8ddb054, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 8571917584537071391, guid: d2e714b9b28f94c468e7b13ae8ddb054, type: 3}
       propertyPath: m_LocalPosition.x
