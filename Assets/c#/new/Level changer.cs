@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Levelchanger : MonoBehaviour
 {
-    public int index;
     public string levelName;
 
     public void OnTriggerEnter2D(Collider2D other)
@@ -14,7 +13,7 @@ public class Levelchanger : MonoBehaviour
             SceneManager.LoadScene(levelName);
             Debug.Log("Going you are now");
         }
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
     }
     public void changeScene()
     {

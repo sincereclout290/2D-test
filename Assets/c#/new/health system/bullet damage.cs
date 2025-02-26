@@ -14,6 +14,7 @@ public class bulletdamage : MonoBehaviour
         if (collision.CompareTag("Enemy"))
         {
             collision.GetComponent<Health>()?.TakeDamage(damage);
+            Debug.Log("You hit a enemy");
         }
         
         Destroy(gameObject);

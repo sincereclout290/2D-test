@@ -30,8 +30,14 @@ public class BasicEnermy : MonoBehaviour
         {
             agent.SetDestination(player.transform.position); 
         }
-
+        
         animator.SetFloat("input x", agent.velocity.x);
         animator.SetFloat("input y", agent.velocity.y);
     } 
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.yellow ;
+        Gizmos.DrawWireSphere(transform.position, attackDistance);
+    }
+
 }

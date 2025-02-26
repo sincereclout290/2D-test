@@ -8,7 +8,7 @@ public class Enemyspawning : MonoBehaviour
     public Transform spawnPoint; // The point where objects will be spawned
     float spawnInterval = 10f; // Time between spawns in seconds
     float minimumSpawnInterval = 1f; // The minimal amount of time between enemies spawning.
-    float intervalDecrease = 8.1F; // How much does the spawn time decrease by.
+    float intervalDecrease = 4F; // How much does the spawn time decrease by.
 
     private void Start()
     {
