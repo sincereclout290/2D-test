@@ -8,12 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/Main Menu.unity
     guid: 4f8b438458fa30041865000691e86423
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scene/demo.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scene/The exit 3.unity
-    guid: c515e5e27edfe79438e8f3f3deb57aa9
   - enabled: 1
     path: Assets/Scene/Game over.unity
     guid: a90efcd3d8e8b0349aa56eb0dce8e5ac
@@ -30,6 +27,36 @@ EditorBuildSettings:
     path: Assets/Scene/the exit.unity
     guid: afacb9c04cde9b74d829d0a2cde3957c
   - enabled: 1
+    path: Assets/Scene/Level G1.unity
+    guid: 6faa826b7b0984f468f32c817668637d
+  - enabled: 1
+    path: Assets/Scene/Level G2.unity
+    guid: a42f72be912f77941ad6fb58cf845547
+  - enabled: 1
+    path: Assets/Scene/Level G3.unity
+    guid: 27e723e65e868ab4aad8aa127106726a
+  - enabled: 1
+    path: Assets/Scene/Level G4.unity
+    guid: 267b588d97c489447bc3709db459565c
+  - enabled: 1
     path: Assets/Scene/the Exit 2.unity
     guid: 46a90d7e50562b14da9a7f03563c0bd9
+  - enabled: 1
+    path: Assets/Scene/Level O1.unity
+    guid: 810f46cf6f6bfb842b8ae229f2c83734
+  - enabled: 1
+    path: Assets/Scene/Level O2.unity
+    guid: 604ca5a472b58fe48bc16bb03ebff59f
+  - enabled: 1
+    path: Assets/Scene/Level O3.unity
+    guid: 06af6d44a56ad514b85fff5c77ca79e8
+  - enabled: 1
+    path: Assets/Scene/Level O4.unity
+    guid: 7e03a838dfb115e47a6396284fc7203b
+  - enabled: 1
+    path: Assets/Scene/The exit 3.unity
+    guid: c515e5e27edfe79438e8f3f3deb57aa9
+  - enabled: 1
+    path: Assets/Scene/The End.unity
+    guid: a029a03c4b663a544b47188713fc278a
   m_configObjects: {}
