@@ -20,15 +20,6 @@ public class RigidbodyMovement : MonoBehaviour
 
     void Update()
     {
-         if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))
-        {
-            moveSpeed = 4f;
-        }
-        if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp(KeyCode.RightShift))
-        {
-            moveSpeed = 2.5f;
-        }
-
         float moveInputX = Input.GetAxisRaw("Horizontal"); // For horizontal movement (left/right)
         float moveInputY = Input.GetAxisRaw("Vertical");   // For vertical movement (up/down)
 

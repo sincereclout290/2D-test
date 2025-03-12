@@ -12,6 +12,8 @@ public class PlayerShooting : MonoBehaviour
     AudioSource audioSource; //the source attached to this gameobject
     public AudioClip attackSound; //The sound effect that will play whenever the arrow is shot
     // Start is called before the first frame update
+    public float fireRate = 0.5f; // Time between shots in seconds
+    private float nextFireTime = 0f; // Time when the next shot can be fired
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -25,9 +27,10 @@ public class PlayerShooting : MonoBehaviour
 
          RotateBulletSpawnPointTowardsMouse();
         // Check for the "Firel" input (left mouse button or spacebar by default)
-        if (Input.GetButtonDown ("Fire1"))
+        if (Input.GetButtonDown ("Fire1") && Time.time > nextFireTime)
         {
             Shoot();
+            nextFireTime = Time.time + fireRate;
         }
     }
     void RotateBulletSpawnPointTowardsMouse()
