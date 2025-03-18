@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &9904762 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7579775656766853011, guid: 3f7d4e5a0e017e940854745edbba4138, type: 3}
+  m_PrefabInstance: {fileID: 1838663682}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &68131471
 GameObject:
   m_ObjectHideFlags: 0
@@ -1851,6 +1856,9 @@ GameObject:
   - component: {fileID: 894232309}
   - component: {fileID: 894232308}
   - component: {fileID: 894232307}
+  - component: {fileID: 894232310}
+  - component: {fileID: 894232312}
+  - component: {fileID: 894232311}
   m_Layer: 0
   m_Name: King slime
   m_TagString: Untagged
@@ -1947,6 +1955,99 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &894232310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894232306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46bb7c627b363da438d756f9bb6aa1f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+--- !u!114 &894232311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894232306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beff5a7a06995d941b4dd4810ba955f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 9904762}
+  levelName: 
+--- !u!68 &894232312
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894232306}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -1.6, y: 0}
+  - {x: -1.6051016, y: -0.20473689}
+  - {x: -1.4059491, y: -0.5068066}
+  - {x: -1.2071686, y: -0.808489}
+  - {x: -1.0056615, y: -1.0016322}
+  - {x: -0.8105259, y: -1.2139621}
+  - {x: -0.49876451, y: -1.4205389}
+  - {x: -0.20991898, y: -1.6149786}
+  - {x: 0.2145567, y: -1.6088754}
+  - {x: 0.5087676, y: -1.4186771}
+  - {x: 0.8008499, y: -1.2086576}
+  - {x: 1.002677, y: -0.99786514}
+  - {x: 1.1966772, y: -0.8090342}
+  - {x: 1.4119732, y: -0.50509787}
+  - {x: 1.6023102, y: -0.21417966}
+  - {x: 1.6107013, y: 0.20669961}
+  - {x: 1.4018512, y: 0.506862}
+  - {x: 1.1996605, y: 0.80786145}
+  - {x: 0.8038168, y: 1.2136296}
+  - {x: 0.50952744, y: 1.4092363}
+  - {x: 0.20295858, y: 1.6036081}
+  - {x: -0.20242405, y: 1.6037221}
+  - {x: -0.5086026, y: 1.4081043}
+  - {x: -0.8050208, y: 1.2021475}
+  - {x: -1.2043571, y: 0.80413085}
+  - {x: -1.5991502, y: 0.21268594}
+  - {x: -1.603856, y: 0.0021030009}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &896780562
 GameObject:
   m_ObjectHideFlags: 0
@@ -2973,6 +3074,8 @@ GameObject:
   - component: {fileID: 1369716748}
   - component: {fileID: 1369716750}
   - component: {fileID: 1369716749}
+  - component: {fileID: 1369716752}
+  - component: {fileID: 1369716751}
   m_Layer: 0
   m_Name: King slime arm
   m_TagString: Untagged
@@ -2988,8 +3091,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1369716747}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.045000076, y: -1.595, z: 0}
-  m_LocalScale: {x: 0.49111328, y: 0.7675782, z: 0.25}
+  m_LocalPosition: {x: 0.054, y: -1.967, z: 0}
+  m_LocalScale: {x: 0.5125, y: 0.79875, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 894232309}
@@ -3068,6 +3171,83 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1369716751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369716747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beff5a7a06995d941b4dd4810ba955f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 9904762}
+  levelName: 
+--- !u!68 &1369716752
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369716747}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -1.6061119, y: 1.5921612}
+  - {x: -1.6025369, y: -0.30815893}
+  - {x: -1.5054092, y: -0.4004092}
+  - {x: -1.4005162, y: -0.6058662}
+  - {x: -1.3118598, y: -0.7045462}
+  - {x: -1.1997738, y: -0.8995259}
+  - {x: -1.1043849, y: -1.1026329}
+  - {x: -0.901472, y: -1.2043166}
+  - {x: -0.705778, y: -1.3010932}
+  - {x: -0.6099286, y: -1.4044253}
+  - {x: -0.40621448, y: -1.5031909}
+  - {x: -0.30425507, y: -1.5991999}
+  - {x: 0.31374633, y: -1.5958768}
+  - {x: 0.39891642, y: -1.5055622}
+  - {x: 0.5977515, y: -1.4016078}
+  - {x: 0.70372707, y: -1.3016968}
+  - {x: 0.899814, y: -1.198463}
+  - {x: 1.0970194, y: -1.0997127}
+  - {x: 1.2008463, y: -0.9018025}
+  - {x: 1.305026, y: -0.70206434}
+  - {x: 1.4121456, y: -0.59470594}
+  - {x: 1.5073005, y: -0.40763116}
+  - {x: 1.6079755, y: -0.3019805}
+  - {x: 1.612978, y: 1.5989733}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1410227892
 GameObject:
   m_ObjectHideFlags: 0
