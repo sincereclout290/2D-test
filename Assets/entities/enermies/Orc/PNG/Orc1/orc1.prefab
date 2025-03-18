@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 3150766293260984754}
   m_Layer: 0
   m_Name: orc1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37,7 +37,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6810874535336814655
 SpriteRenderer:
@@ -146,6 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c903ae36ac11fbc4dbdc8474a9edc40e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackDistance: 15
 --- !u!114 &1518866778639488413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,8 +159,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beff5a7a06995d941b4dd4810ba955f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respawnpoint: {fileID: 0}
   Player: {fileID: 0}
+  levelName: 
 --- !u!61 &2781321339519925016
 BoxCollider2D:
   m_ObjectHideFlags: 0

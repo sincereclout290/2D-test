@@ -7,10 +7,13 @@ public class Health : MonoBehaviour
     public int maxHealth; 
     int currentHealth;
 
+    DoorDestroywhenallaredead doorDestroyer;
+
     // Start is called before the first frame update
     private void Start()
     {
         currentHealth = maxHealth;
+        doorDestroyer = FindObjectOfType<DoorDestroywhenallaredead>();
     }
 
     // Update is called once per frame
@@ -26,6 +29,7 @@ public class Health : MonoBehaviour
 
     void Die()
     {
+        doorDestroyer.EnemyDied(gameObject);
         Destroy(gameObject);
     }
 
