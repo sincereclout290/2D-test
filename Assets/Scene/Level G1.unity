@@ -47865,6 +47865,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pause pannel
       objectReference: {fileID: 0}
+    - target: {fileID: 3524179753911859977, guid: 538746b500765a647addcd059f696e9c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 274403372}
+    - target: {fileID: 3524179753911859977, guid: 538746b500765a647addcd059f696e9c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResumeGame
+      objectReference: {fileID: 0}
     - target: {fileID: 5518167574759352955, guid: 538746b500765a647addcd059f696e9c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -47948,6 +47956,14 @@ PrefabInstance:
     - target: {fileID: 5518167574759352955, guid: 538746b500765a647addcd059f696e9c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5681305563979170032, guid: 538746b500765a647addcd059f696e9c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 274403372}
+    - target: {fileID: 5681305563979170032, guid: 538746b500765a647addcd059f696e9c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: QuitGame
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
