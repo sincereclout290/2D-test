@@ -367,10 +367,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pause pannel
       objectReference: {fileID: 0}
-    - target: {fileID: 2100138716427202365, guid: 538746b500765a647addcd059f696e9c, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3524179753911859977, guid: 538746b500765a647addcd059f696e9c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -405,11 +401,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5518167574759352955, guid: 538746b500765a647addcd059f696e9c, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1891.83
+      value: 4000
       objectReference: {fileID: 0}
     - target: {fileID: 5518167574759352955, guid: 538746b500765a647addcd059f696e9c, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1201
+      value: 2000
       objectReference: {fileID: 0}
     - target: {fileID: 5518167574759352955, guid: 538746b500765a647addcd059f696e9c, type: 3}
       propertyPath: m_LocalPosition.x
