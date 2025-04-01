@@ -5,7 +5,7 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     public int maxHealth; 
-    int currentHealth;
+    public int currentHealth;
 
     DoorDestroywhenallaredead doorDestroyer;
 

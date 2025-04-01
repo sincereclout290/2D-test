@@ -6,8 +6,6 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider2D))]       //We will still need to tweak some of the settings.
 public class RigidbodyMovement : MonoBehaviour
 {
-     public GameObject codeToStart; // Reference to the GameObject containing the code to start
-
     Animator animator;
     Rigidbody2D rb2d;
     public float moveSpeed = 2.5f;

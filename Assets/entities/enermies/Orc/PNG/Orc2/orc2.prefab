@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 1398294140563011044}
   m_Layer: 0
   m_Name: orc2
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37,7 +37,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3107478141004177319
 SpriteRenderer:
@@ -194,7 +194,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.36
-  m_Speed: 2
+  m_Speed: 2.65
   m_Acceleration: 5
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
-  levelName: 
+  levelName: Game over
 --- !u!114 &1398294140563011044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,3 +246,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 8
+  currentHealth: 0
